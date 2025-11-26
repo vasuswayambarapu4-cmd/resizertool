@@ -1,0 +1,35 @@
+📸 Image Resizer Tool
+
+A simple and efficient Python script to resize and convert images in batch. Perfect for photographers, developers, or anyone who needs to automate image processing tasks.
+
+🚀 Features
+
+Resize all images in a folder
+
+Convert images to a different format (e.g., JPG → PNG)
+
+Preserve aspect ratio
+
+Automatically create output folder
+
+Supports most common image formats
+🛠 Tools & Libraries
+
+Python
+
+Pillow (PIL)
+
+os
+🧠 How It Works (Mini Guide)
+
+Use os.listdir() to read all filenames in a folder
+
+Open each file with PIL.Image.open()
+
+Resize with .resize(new_size)
+
+Save back using .save() with chosen format
+
+🏁 Outcome
+
+You’ll have a fully automated script that can resize and convert dozens or hundreds of images in seconds — ideal for web optimization, bulk processing, and production workflows.
