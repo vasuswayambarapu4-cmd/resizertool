@@ -1,0 +1,5 @@
+image_resizer/
+│── images/            # Input images folder
+│── output/            # Auto-created output folder
+│── resize.py          # Main script
+└── README.md
